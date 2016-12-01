@@ -11,7 +11,7 @@ from latex_label import LatexLabel
 
 
 # Load the GUI class from the .ui file
-(Ui_MainWindow, QMainWindow) = uic.loadUiType('example.ui')
+(Ui_MainWindow, QMainWindow) = uic.loadUiType('layout.ui')
 
 # Define a class for the main window.
 class MainWindow(QtGui.QMainWindow):
